@@ -33,3 +33,21 @@ console.log(typeof example)
 console.log(typeof valueinexample)
 console.log(typeof numb);
 console.log(typeof num)
+
+//************************OPERATIONS ******************8*/
+
+let num1 = 4
+let num2 = -num1
+console.log(num2)
+
+console.log(1 + 2 + "3");
+console.log("1" + 2 + "3");
+
+let number = "12111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222"
+let bignum = BigInt(number)
+console.log(typeof bignum);
+
+// prefix and postfix increment operator//
+let gamecounter = 100
+game = ++gamecounter
+console.log(game);
