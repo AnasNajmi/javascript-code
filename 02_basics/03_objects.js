@@ -1,4 +1,4 @@
-//singelton objects
+
 const  mysym = Symbol("Key1"); //Symbol is defined 
 
 

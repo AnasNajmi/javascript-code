@@ -39,3 +39,19 @@ console.log(user.secondaryuser);
 //Spread Method very important
 let obj4 = {...obj1, ...obj2}
 console.log(obj4);
+
+//When we fetch values from the database then this method is used 
+//Here multiple objects are defined inside an array 
+const users = [
+    {
+        id:1,
+        email:"anas@gmail.com",
+    },
+    {
+        id:1,
+        email:"anas@gmail.com",
+    },
+]
+//It is Mostly used in Database to retreive and fetch data 
+console.log(Object.keys(users));
+console.log(Object.values(user));
