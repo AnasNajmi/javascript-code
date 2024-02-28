@@ -71,3 +71,19 @@ const {courseteacher: teacher}= course //Destructuring
 
 console.log(teacher);
 
+//JSON File for API Caliing 
+//We are writing the API Format in which API is written 
+//It is just like how we define a object but keys are handled as STRINGS 
+
+//JSON file as Object
+// {
+//     "name": "anas",
+//     "roll_no":11,
+// }
+//JSON file in Array
+
+// [
+//     "name": "anas",
+//     "roll_no":11,
+
+// ]
