@@ -55,3 +55,19 @@ const users = [
 //It is Mostly used in Database to retreive and fetch data 
 console.log(Object.keys(users));
 console.log(Object.values(user));
+console.log(Object.entries(tinder2));// it binds the keys and values together in an array [name:anas],[email:anas@gmail]
+
+//Destructuring of Objects in JS 
+
+const course = {
+    coursename: "EMO",
+    courseId: 2,
+    courseteacher: "Abida"
+}
+console.log(course.courseteacher);
+// Sometimes we have to print courseteacher multiple times and its a log name so we destructure the object name
+
+const {courseteacher: teacher}= course //Destructuring
+
+console.log(teacher);
+
