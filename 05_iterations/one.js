@@ -1,12 +1,12 @@
 
 
 
-for (let index = 0; index !=20 ; index++) {
+for (let index = 0; index !=20 ; index= index + 2) {
     const element = index;
     if(index==5){
-        // console.log("5 is the best number ever");
+         console.log("5 is the best number ever");
     }
-    // console.log(element);
+     console.log(element);
     
 }
 
