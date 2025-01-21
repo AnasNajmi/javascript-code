@@ -42,11 +42,15 @@ if(true){
 
 //++++++++++++++++++++++++++Interseting Hoisting concept+++++++++++++++++++
 
+
+//Function Declaration
 function addone(num){     //First way to declare a function//
     return num + 1
 }
 console.log(addone(5));
 
+
+//Function initialization
 const addtwo = function(num){   //Second method to declare a function//
     return num + 2 
 }
