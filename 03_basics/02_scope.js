@@ -2,6 +2,14 @@
 //Closure/
 
 //{}  curly braces is called scope when it comes with conditional statement or in functions
+//Global scope ki declared value hum function, if/else ky scope myn access kr skty hyn but 
+//Block scope like:
+//  if(true){
+      a = 30
+      b= 40
+      c = 60 
+
+//} //ye block scope hy or iski value global scope myn access nhi honi chye 
 
 
 
@@ -18,7 +26,7 @@ function one(){
     // console.log(website);
     two()
 }
-// one()
+one()
 
 
 if(true){
