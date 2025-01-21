@@ -7,8 +7,8 @@ const dc_heroes = ["superman",  "flash", "batman"]
 // let allheroes = marvel_heros.concat(dc_heroes) // All the dc and marvel heroes are written together
 // console.log(allheroes);
 
-// const all_heroes_spread_method = [...marvel_heros, ...dc_heroes]// like concat method spread method is also used and it is mostly used in the code
-// console.log(all_heroes_spread_method);
+const all_heroes_spread_method = [...marvel_heros, ...dc_heroes]// like concat method spread method is also used and it is mostly used in the code
+console.log(all_heroes_spread_method);
 
 // const new_array_flat_method = [1,2,3,4,[5,6,7,[11,12,13]], 8,9,10] 
 // let another_array = new_array_flat_method.flat(Infinity)

@@ -19,20 +19,20 @@ let stringnumber = String(somenumber)
 console.log(stringnumber);
 console.log(typeof stringnumber);
 
-
-console.log(booleanisloggedin);
-console.log(typeof mun)
-console.log(munu);
-console.log(usam)
-console.log(typeof usa);
-console.log(typeof anasna)
-console.log(anasna)
-console.log(typeof score)
-console.log(typeof valueInnumber)
-console.log(typeof example)
-console.log(typeof valueinexample)
-console.log(typeof numb);
-console.log(typeof num)
+console.log(numb)
+// console.log(booleanisloggedin);
+// console.log(typeof mun)
+// // console.log(munu);
+// console.log(usam)
+// console.log(typeof usa);
+// console.log(typeof anasna)
+// console.log(anasna)
+// console.log(typeof score)
+// console.log(typeof valueInnumber)
+// console.log(typeof example)
+// console.log(typeof valueinexample)
+// console.log(typeof numb);
+// console.log(typeof num)
 
 //************************OPERATIONS ******************8*/
 

@@ -1,5 +1,10 @@
 //Function within a function//
-//Closure//
+//Closure/
+
+//{}  curly braces is called scope when it comes with conditional statement or in functions
+
+
+
 
 function one(){
     const username = "anas"
