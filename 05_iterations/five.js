@@ -1,8 +1,8 @@
 //for each loop 
 //This loop is special as it is used extensively, it has a special way to write 
 //First we will define an array
-//now write the name of the variable and put '.' next to it and call for each() keyword/method
-//then in () of for each write a function
+//now write the name of the variable and put '.' next to it and call 'for each()' keyword/method
+//then in () of 'for each' write a function
 //Do not write the function name   
 let coding = [ 'python', 'cpp', 'java', 'javascript', 'sql']
 //(1) first method with simple function without function name 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div class="container">
+        <input type="text" id="languageInput" placeholder="Enter a language">
+        <button onclick="addLanguage()">Add Language</button>
+        <ul class="parentlist">
+            <li>Python</li>
+        </ul>
+    </div>
+</body>
+<script>
+   function addLanguage() {
+        // Get input value
+        const langName = document.getElementById("languageInput").value;
+
+        // Check if input is not empty
+        if(langName.trim() !== ""){
+            // Create new list item
+            const lang = document.createElement("li");
+            lang.innerText = langName;
+
+            // Append the new item to the list
+            document.querySelector('.parentlist').appendChild(lang);
+
+            // Clear input field after adding
+            document.getElementById("languageInput").value = "";
+        } else {
+            alert("Please enter a language.");
+        }
+   }
+</script>
+</html>
